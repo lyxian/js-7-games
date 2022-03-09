@@ -8,7 +8,7 @@ const blockWidth = 100
 const blockHeight = 20
 const ballDiameter = 20
 const ballSpeed = 15
-const userSpeed = 20
+const userSpeed = 10
 
 let gameStart = false
 let result = 0
