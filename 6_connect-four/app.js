@@ -56,10 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     squares[i].classList.add('player-two')
                     currentPlayer = 1
                     currentPlayerDisplay.innerHTML = currentPlayer
-                } else {
-                    alert('Invalid move')
                 }
                 checkBoard()
+            }
+            else {
+                alert('Invalid move')
             }
         }
     }
